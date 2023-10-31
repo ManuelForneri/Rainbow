@@ -12,7 +12,7 @@ sendButton.addEventListener("click", () => {
     subject: formSubject,
     message: formMessage,
   };
-  fetch("/send-email", {
+  fetch("http://localhost:3000/send-email", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
