@@ -7,6 +7,7 @@ sendButton.addEventListener("click", () => {
   const formMessage = document.getElementById("message").value;
 
   const data = {
+    emailDestinatary: "rainbowdecoraciondeeventos@gmail.com",
     from: "Rainbow",
     name: formName,
     email: formEmail,
